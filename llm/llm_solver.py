@@ -1,7 +1,7 @@
 import interpreter
 import json
 
-interpreter.api_key = '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'
+interpreter.api_key = ''
 
 with open('config.json', 'r') as json_file:
     config_data = json.load(json_file)
