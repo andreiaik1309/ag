@@ -1,0 +1,8 @@
+{"threshold_model": 100,
+  "threshold_site": 50,
+  "features_col":  ["fc_imp_chk", "fc_time_chk", "utmtr", "mm_dma", "osName",
+                  "model", "hardware", "site_id", "dow", "is_weekend", "minute_sin", "minute_cos"],
+  "target_col": "tag_click",
+  "categorical_features": ["fc_imp_chk", "fc_time_chk", "utmtr", "mm_dma", "osName", "model", "hardware",
+                          "site_id", "dow", "is_weekend"]
+}

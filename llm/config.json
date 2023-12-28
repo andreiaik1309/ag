@@ -1,0 +1,9 @@
+{"name_file_train": "df_train.csv",
+  "name_file_test": "df_test.csv",
+  "name_file_val": "df_val.csv",
+  "features_col":  ["fc_imp_chk", "fc_time_chk", "utmtr", "mm_dma", "osName",
+                  "model", "hardware", "site_id", "dow", "is_weekend", "minute_sin", "minute_cos"],
+  "target_col": "tag_click",
+  "categorical_features": ["fc_imp_chk", "fc_time_chk", "utmtr", "mm_dma", "osName", "model", "hardware",
+                          "site_id", "dow", "is_weekend"]
+}
